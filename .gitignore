@@ -1,4 +1,8 @@
 _site
 .sass-cache
 .jekyll-metadata
+/node_modules/
 /bower_components/
+/vendor/
+/nbproject/private/
+/nbproject/

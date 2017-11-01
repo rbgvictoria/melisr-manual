@@ -1,0 +1,19 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/10/2017, 2:13:23 PM
+    Author     : Niels Klazenga <Niels.Klazenga@rbg.vic.gov.au>
+*/
+
+$icon-font-path: '../vendor/bootstrap-sass/assets/fonts/bootstrap/';
+@function font-path($path) {
+  @return $path;
+}
+
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "custom/custom";

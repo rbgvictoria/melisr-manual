@@ -1,0 +1,39 @@
+<header class="site-header" role="banner">
+
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <div>
+                <a class="navbar-brand site-title" href="{{ '/' | relative_url }}">
+                    <img src="{{ 'assets/media/specify_logo_sm.png' | relative_url }}" alt="" />
+                    {{ site.title | escape }}
+                </a>
+            </div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li {% if page.title == 'Specify set-up' %}class="active"{% endif %}><a href="{{ 'specify-set-up.html' | relative_url }}">Specify set-up</a></li>
+            <li {% if page.title == 'Using Specify' %}class="active"{% endif %}><a href="{{ 'using-specify.html' | relative_url }}">Using Specify</a></li>
+            <li {% if page.title == 'Data entry forms' %}class="active"{% endif %}><a href="{{ 'data-entry-forms.html' | relative_url }}">Data entry forms</a></li>
+            <li {% if page.title == 'Querying' %}class="active"{% endif %}><a href="{{ 'querying.html' | relative_url }}">Querying</a></li>
+            <li {% if page.title == 'Transactions' %}class="active"{% endif %}><a href="{{ 'transactions.html' | relative_url }}">Transactions</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li {% if page.title == 'DNA sequences' %}class="active"{% endif %}><a href="{{ 'dna-sequences.html' | relative_url }}">DNA sequences</a></li>
+                <li {% if page.title == 'Curation tools' %}class="active"{% endif %}><a href="{{ 'curation-tools.html' | relative_url }}">Curation tools</a></li>
+                <li {% if page.title == 'Plugins' %}class="active"{% endif %}><a href="{{ 'plugins.html' | relative_url }}">Plugins</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+</header>

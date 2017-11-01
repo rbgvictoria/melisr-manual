@@ -1,16 +1,14 @@
 ---
 title: Using Specify
 permalink: using-specify.html
-layout: page
+layout: page_toc
 ---
-
-## Using Specify
 
 ### Specify Help
 
 Specify contains an inbuilt help system that can be opened from anywhere in the application by pressing the **F1** key. The help system is designed to provide an overview of the modules within Specify, as well as context-sensitive help for a given task. When performing a task in Specify, press **F1** to open the **Specify Help** page that corresponds to the current task. **Specify Help** includes a table of contents, and full-text search capabilities.
 
-![](media/image12.jpeg)
+![](assets/media/image12.jpeg)
 
 The most relevant information from the **Specify Help** pages has been incorporated into this manual.
 
@@ -18,7 +16,7 @@ The most relevant information from the **Specify Help** pages has been incorpora
 
 The main sections of the Specify interface are described below.
 
-![](media/image13.jpeg)
+![](assets/media/image13.jpeg)
 
 #### Menu bar
 
@@ -28,13 +26,13 @@ The menu bar provides access to user preferences, system configuration settings 
 
 The file menu contains the **Exit** command. Specify can also be closed by pressing **Alt+F4** or clicking the **Close** symbol in the upper right corner of the window.
 
-![](media/image14.jpeg)
+![](assets/media/image14.jpeg)
 
 ##### Edit
 
 Formatting preferences (including font and font size) can be edited under **Preferences** in the **Edit** menu. Note that the formatting prefernces will apply to all users, not just you, so please see a database administrator if you think the formatting settings should be changed.
 
-![](media/image15.png)
+![](assets/media/image15.png)
 
 ##### Data
 
@@ -148,7 +146,7 @@ A many-to-one relationship is a relationship involving a primary and related tab
 
 Related tables with a many-to-one relationship to the primary table are represented on the form as a query combo box with buttons to edit, add and search for a record within the table:
 
-![](media/image16.jpeg)
+![](assets/media/image16.jpeg)
 
 ##### One-to-many
 
@@ -156,7 +154,7 @@ A one-to-many relationship is a relationship involving a primary and related tab
 
 Related tables with a one-to-many relationship are represented on the form as a subform (in either a grid or form view) with navigation controls that allow records in the related table to be added to or deleted from the primary table:
 
-![](media/image17.png)
+![](assets/media/image17.png)
 
 ##### Many-to-many
 
@@ -168,26 +166,26 @@ The following controls are used to enter and display data in the forms. Unless o
 
 | **Symbol** | **Definition** | **Action** |
 | --- | --- | --- |
-| ![](media/image18.png) | **Incomplete** | Opens a dialogue box listing the required fields that are incomplete (this action cannot be performed using the keyboard)_Note:_ The shield only appears once a change has been made inside the form and will disappear once all required fields contain data |
-| ![](media/image19.jpeg) | **Warning** | Opens a dialogue box listing fields that contain incorrect data (this action cannot be performed using the keyboard)_Note:_ The shield will only display when the form contains errors |
-| ![](media/image20.png) | **Collapse** | Hides the form or subform (this action cannot be performed using the keyboard) |
-| ![](media/image21.png) | **Expand** | Opens the form or subform (this action cannot be performed using the keyboard) |
-| ![](media/image22.png) | **Add** | Opens a new form or subform to add a new record |
-| ![](media/image23.png) | **Delete** | Deletes the form or subform record. A record cannot be deleted if it is linked to any other records. |
-| ![](media/image24.png) | **Edit** | Opens the related record in a subform for editing |
-| ![](media/image25.png) | **Search** | Opens a search dialogue box to search for a record in the form or subform. The fields in the related form will be available to search_Note:_ This search treats all search criteria independently. For example, when searching for an agent &#39;John Smith&#39;, entering &#39;John&#39; in the **First name** field and &#39;Smith&#39; in the **Last name** field will return results for all agents with the last name &#39;Smith&#39;, as well as all agents with the first name &#39;John&#39;. |
-| ![](media/image26.png) | **Information** | Opens the associated form in view mode |
-| ![](media/image27.png) | **View form** | Displays the data in a table as a form in view mode |
-| ![](media/image28.png) | **View grid** | Displays the data in a table as a grid in view mode |
-| ![](media/image29.png) | **Edit form** | Displays the data in an editable table as a form in edit mode |
-| ![](media/image30.png) | **Edit grid** | Displays the data in an editable table as a grid in edit mode |
-| ![](media/image31.png) | **Close** | Closes the window or tab |
+| ![](assets/media/image18.png) | **Incomplete** | Opens a dialogue box listing the required fields that are incomplete (this action cannot be performed using the keyboard)_Note:_ The shield only appears once a change has been made inside the form and will disappear once all required fields contain data |
+| ![](assets/media/image19.jpeg) | **Warning** | Opens a dialogue box listing fields that contain incorrect data (this action cannot be performed using the keyboard)_Note:_ The shield will only display when the form contains errors |
+| ![](assets/media/image20.png) | **Collapse** | Hides the form or subform (this action cannot be performed using the keyboard) |
+| ![](assets/media/image21.png) | **Expand** | Opens the form or subform (this action cannot be performed using the keyboard) |
+| ![](assets/media/image22.png) | **Add** | Opens a new form or subform to add a new record |
+| ![](assets/media/image23.png) | **Delete** | Deletes the form or subform record. A record cannot be deleted if it is linked to any other records. |
+| ![](assets/media/image24.png) | **Edit** | Opens the related record in a subform for editing |
+| ![](assets/media/image25.png) | **Search** | Opens a search dialogue box to search for a record in the form or subform. The fields in the related form will be available to search_Note:_ This search treats all search criteria independently. For example, when searching for an agent &#39;John Smith&#39;, entering &#39;John&#39; in the **First name** field and &#39;Smith&#39; in the **Last name** field will return results for all agents with the last name &#39;Smith&#39;, as well as all agents with the first name &#39;John&#39;. |
+| ![](assets/media/image26.png) | **Information** | Opens the associated form in view mode |
+| ![](assets/media/image27.png) | **View form** | Displays the data in a table as a form in view mode |
+| ![](assets/media/image28.png) | **View grid** | Displays the data in a table as a grid in view mode |
+| ![](assets/media/image29.png) | **Edit form** | Displays the data in an editable table as a form in edit mode |
+| ![](assets/media/image30.png) | **Edit grid** | Displays the data in an editable table as a grid in edit mode |
+| ![](assets/media/image31.png) | **Close** | Closes the window or tab |
 
 #### Navigating between records
 
 Navigation control buttons are found at the bottom of each primary form (e.g. the **Collection object** form), and the bottom of each subform (e.g. the **Determinations** form) when viewed as a form:
 
-![](media/image32.jpeg)
+![](assets/media/image32.jpeg)
 
 Browse through the records by clicking on the appropriate arrow (first, previous, next or last) or press the spacebar when the appropriate button is in focus.
 
@@ -199,33 +197,33 @@ You can also use keyboard controls to navigate between different records (see **
 
 Text boxes accept any input. The maximum length of text boxes varies between different fields.
 
-![](media/image33.png)
+![](assets/media/image33.png)
 
 #### Number box
 
 Number boxes look the same as text boxes, but will only accept numeric characters.
 
-![](media/image34.png)
+![](assets/media/image34.png)
 
 #### Expandable fields
 
 Expandable text fields allow longer strings of text to be entered. To save space, only the first one or two lines of an expandable text field are displayed on the form. In data entry or edit mode, expandable fields are indicated by an **Edit form** symbol to the right of the field:
 
-![](media/image35.jpeg)
+![](assets/media/image35.jpeg)
 
 In view mode, an **Information** symbol appears to the right of the field:
 
-![](media/image36.jpeg)
+![](assets/media/image36.jpeg)
 
 Clicking on the **Edit form** symbol or the **Information** symbol opens the field in a new window for editing or viewing, respectively:
 
-![](media/image37.jpeg)
+![](assets/media/image37.jpeg)
 
 #### Query combo box
 
 A query combo box allows data to be searched and selected from a related table; information cannot be typed directly into the box.
 
-![](media/image38.jpeg)
+![](assets/media/image38.jpeg)
 
 You can select the data in the related table from a drop-down list, or by searching the related table. If there is no corresponding record in the table, a new record needs to be added to the related table before it can be entered in the primary form. Records in related tables can also be edited.
 
@@ -233,11 +231,11 @@ To select data from a list:
 
 1.  Type the first few letters of the term you wish to use in the box, then either press the down-arrow key on the     keyboard, or click on the arrow to the right of the combo box. A list of corresponding records in the related table will appear:
 
-    ![](media/image39.jpeg)
+    ![](assets/media/image39.jpeg)
 
     If the list of matching records is long, it will appear in a separate window:
 
-    ![](media/image40.jpeg)
+    ![](assets/media/image40.jpeg)
 
     You can also press the **Tab** key after entering text; if there is only one record in the table that corresponds to the text you entered, the matching record will be selected.
 
@@ -249,11 +247,11 @@ To search for data in the table:
 
 1.  Click on the **Search** symbol to the right of the combo box. A search window will appear:
 
-    ![](media/image41.jpeg)
+    ![](assets/media/image41.jpeg)
 
 2.  Type in either the entire name, or the first few letters followed by a wildcard (\*):
 
-    ![](media/image42.jpeg)
+    ![](assets/media/image42.jpeg)
 
 3.  Select a record from the results by clicking on it or scrolling through the list and pressing **Enter**.
 
@@ -264,9 +262,9 @@ To edit an existing record:
 1.  Select a record from the drop-down list or the search window
 2.  Click on the **Edit** symbol to the right of the combo box. The record will open in a new window:
 
-    ![](media/image43.png)
+    ![](assets/media/image43.png)
 
->   #### **Caution!**
+>   **Caution!**
 >   When editing records, remember that the data changes in each related record that references that record. For example, if the spelling of a name in the **Last name** field is changed in an **Agent** record, the agent&#39;s name will be changed in the **Collectors** field in all **Collection object** records that link to that **Agent** record, and not just in the **Collection object** that is currently open. If the wrong collector was entered, the link to the wrong agent record needs to be deleted and a link to the correct agent needs to be added. |
 
 
@@ -274,11 +272,11 @@ To edit an existing record:
 
 -   A pick list presents a restricted set of values for a field. **The values in a pick list can only be edited by a database administrator.**
 
-    ![](media/image44.jpeg)
+    ![](assets/media/image44.jpeg)
 
 -   Select an entry from the pick list by clicking on it or pressing the down-arrow, scrolling to the appropriate entry, and pressing **Enter** :
 
-    ![](media/image45.jpeg)
+    ![](assets/media/image45.jpeg)
 
 -   Alternatively, enter the first letter of the appropriate pick list entry to select it. If there is more than one value in the pick list that begins with the same letter, press the first letter of the word until the right value is selected.
 
@@ -288,31 +286,31 @@ To edit an existing record:
 
 Date fields are formatted fields that only allow valid dates to be entered.
 
-![](media/image46.jpeg)
+![](assets/media/image46.jpeg)
 
 -   Right-clicking inside a date field will allow you to either insert the current date, or clear the field:
 
-    ![](media/image47.png)
+    ![](assets/media/image47.png)
 
 -   Date fields are preceded by a date type pick list, which allows you to choose from a full date, a month and year, or a year only. Use the mouse or press the down-arrow on the keyboard to open the pick list, scroll to the appropriate date type, then press **Enter** to select it:
 
-    ![](media/image48.jpeg)
+    ![](assets/media/image48.jpeg)
 
 -   If an invalid date is entered, the date field will be highlighted in red, and you won&#39;t be allowed to save the record:
 
-    ![](media/image49.jpeg)
+    ![](assets/media/image49.jpeg)
 
 #### Check boxes
 
 Check boxes are used to indicate the presence of an attribute. Click the check box to tick or un-tick the box, or press the space bar when the check box label is in focus. Note that there are three read-only check boxes on the top of the **Collection object** form that are automatically populated.
 
-![](media/image50.png)
+![](assets/media/image50.png)
 
 #### Required fields
 
 Fields that are required have a bold label and the text area is shaded blue:
 
-![](media/image51.png)
+![](assets/media/image51.png)
 
 Records cannot be saved until all required fields contain valid data. An **Incomplete** symbol will appear at the bottom of the form if required fields have not been completed.
 
@@ -322,7 +320,7 @@ Read-only fields are used either to display a field in a different form than the
 
 There is no border around read-only fields:
 
-![](media/image52.jpeg)
+![](assets/media/image52.jpeg)
 
 ### Form tools
 
@@ -364,12 +362,12 @@ To configure **Carry forward** :
 1.  Click on the **Data** menu in the menu bar (or right-click the mouse within the form)
 2.  Select **Configure carry forward**
 
-    ![](media/image53.png)
+    ![](assets/media/image53.png)
 
 3.  Choose which fields you want to carry forward to the next record
 4.  Click **OK**.
 
-    ![](media/image54.png)
+    ![](assets/media/image54.png)
 
 **Carry forward** automatically turns on after it has been configured. When configuring **Carry forward** , bear in mind that, if **Carry forward** is enabled for **Determinations** , _all_ determinations from the previous record will be carried forward, not just the current determination.
 
@@ -380,18 +378,21 @@ To turn **Carry forward** on:
 1.  Click on the **Data** menu in the menu bar (or right-click the mouse within the form)
 2.  Select **Carry forward**. A tick will appear next to **Carry forward** in the menu.
 
-	![](media/image55.jpeg)
+	![](assets/media/image55.jpeg)
 
 To turn **Carry forward** off:
 
 1.  Click on the **Data** menu in the menu bar (or right-click the mouse within the form)
 2.  Select **Carry forward**. The tick next to **Carry forward** will disappear.
 
-    ![](media/image56.jpeg)
+    ![](assets/media/image56.jpeg)
 
 **Carry forward** (or **Configure carry forward** ) can only be selected from the **Data** menu when a form is being entered or edited in the **Data** module.
 
->#### **Caution!**
->When carrying forward locality data from one record to another, remember that if a **Locality** record is shared between two or more records, then subsequently edited, the locality will be changed in _all_ **Collection object** records that share that locality, not just in the **Collection object** that is open when the **Locality** record is edited. You should only carry forward locality data if ALL of the details in the **Locality** form (and the associated **Locality details** and **Geocoordinate details** ) are EXACTLY the same for the different collecting events, such as is the case for multisheet collections.
+{::options parse_block_html="true" /}
+<div class="well">
+**Caution!**
+When carrying forward locality data from one record to another, remember that if a **Locality** record is shared between two or more records, then subsequently edited, the locality will be changed in _all_ **Collection object** records that share that locality, not just in the **Collection object** that is open when the **Locality** record is edited. You should only carry forward locality data if ALL of the details in the **Locality** form (and the associated **Locality details** and **Geocoordinate details** ) are EXACTLY the same for the different collecting events, such as is the case for multisheet collections.
+</div>
 
 [prev](specify-set-up.html)

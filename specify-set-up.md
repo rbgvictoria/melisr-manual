@@ -13,13 +13,13 @@ To install Specify:
 3. Double-click the Specify\_windows.exe file
 4. Click **Run** in the **Open File – Security Warning** window:
 
-![](media/image2.png)
+![](assets/media/image2.png)
 
 - If you receive an error message about Java, run the Java runtime environment update file in Q:\SOE, and then try installing Specify again
 
 1. When prompted, click **OK** to select English as the language:
 
-![image3](media/image3.jpg)
+![image3](assets/media/image3.jpg)
 
 1. Click **Next** for all options in the Specify **Installer** window to accept the default installation settings
 2. Click **Done** to close the installer.
@@ -32,24 +32,24 @@ To install Specify:
 
     If you are presented with a window asking about internet connection settings, click **Cancel**. Once you have edited your preferences (see below), you will no longer be presented with this window upon start-up.
 
-    ![](media/image4.jpg)
+    ![](assets/media/image4.jpg)
 
     If you are presented with an **Updater** window, click **Cancel** to prevent Specify from updating your current installation. Updates to new versions must only be done by database administrators so we can ensure that the new version works properly with our customisation of Specify.
 
-    ![](media/image5.png)
+    ![](assets/media/image5.png)
 
     Click **Exit** when asked if you really want to exit (this will only exit you from the update installer, not from logging in to Specify):
 
-    ![](media/image6.png)
+    ![](assets/media/image6.png)
 
 2.  Enter your user name and password in the login window
 3.  Click **Login**
 
-    ![](media/image7.png)
+    ![](assets/media/image7.png)
 
     If your login fails, click on **More information** and check that the database settings match those below.
 
-    ![](media/image8.jpg)
+    ![](assets/media/image8.jpg)
 
 ##### Configuring the master key
 
@@ -61,7 +61,7 @@ If you have just installed Specify on your computer, or if you are using Specify
 4.  Click **Continue**
 5.  Click **Login** in the login window.
 
-![](media/image9.jpeg)
+![](assets/media/image9.jpeg)
 
 If you are unsure of your master key, see a database administrator.
 
@@ -84,11 +84,11 @@ When you first log in to Specify on your computer, you should edit the system pr
 
 1.  Click on the **Edit** file menu, then select **Preferences** :
 
-    ![](media/image10.png)
+    ![](assets/media/image10.png)
 
 2.  Under the **System** options, un-tick the **Check for updates at startup** box:
 
-    ![](media/image11.png)
+    ![](assets/media/image11.png)
 
 3.  Click **OK** to save the changes.
 
