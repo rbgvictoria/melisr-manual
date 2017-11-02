@@ -135,6 +135,7 @@ The Index Herbariorum code of the institution from which the specimen was receiv
 The catalogue or accession number that was assigned to a specimen (or its duplicate) at the herbarium from which it was received. For example, a duplicate of ‘BRI AQ 814849' would have ‘BRI’ entered in the **Institution** field, and ‘AQ 814849’ entered in the **Catalogue no.** field.
 
 <div class="well">
+
 **Barcodes on exchange specimen labels**
 
 You can populate the **Institution** and **Catalogue no.** fields by scanning the barcode on most exchange specimen labels into the **Institution** field:
@@ -227,9 +228,7 @@ Before entering a name in this field, check to see if the name (or a variation o
 The determination qualifier, for uncertain determinations. The following values can be selected from the pick list:
 
 -   ?
-
 -   aff.
-
 -   cf.
 
 In the past ‘sp. aff.’ has often been used in this field. ‘sp. aff.’ is not a determination qualifier, but indicates a different entity. If a specimen has been determined to ‘*Somegenus* sp. aff. *someepithet*’, then ‘sp. aff. *someepithet*’ needs to be added as a species to the **Taxon** table. 
@@ -247,17 +246,11 @@ The rank at which the determination qualifier applies. Select the appropriate ra
 A suffix added after the name to indicate a concept for that name. The following values can be selected from the pick list:
 
 -   s.l. – *sensu lato*: in a broad sense
-
 -   s.str. – *sensu stricto*: in a narrow sense
-
 -   group
-
 -   intergrade
-
 -   intermediate
-
 -   complex
-
 -   vel aff.
 
 #### Type status
@@ -265,31 +258,18 @@ A suffix added after the name to indicate a concept for that name. The following
 The type status of the specimen, as recorded in the determination. The following type statuses are recognised at MEL:
 
 -   Holotype – the one specimen or illustration used by the author or designated by the author as the nomenclatural type
-
 -   Isotype – a duplicate specimen of the holotype
-
 -   Syntype – any specimen cited in the protologue when there is no holotype, or any of two or more specimens simultaneously designated as types
-
 -   Isosyntype – a duplicate of a syntype
-
 -   Lectotype – a specimen or illustration designated from the original material as the nomenclatural type if no holotype was indicated at the time of publication, or if it is missing
-
 -   Isolectotype – a duplicate specimen of the lectotype, if the lectotype has been chosen from among syntypes (if a lectotype has been chosen from among isotypes, the other isotypes just remain isotypes)
-
 -   Neotype – a specimen or illustration selected to serve as the nomenclatural type if no original material is extant or as long as it is missing
-
 -   Isoneotype – a duplicate specimen of the neotype (again only when the neotype was chosen from among syntypes; isotypes remain isotypes)
-
 -   Paratype – a specimen cited in the protologue that is neither the holotype nor an isotype, nor one of the syntypes if two or more specimens were simultaneously designated as types (*Note:* paratypes need to be cited as paratypes in the protologue; not every specimen cited in a protologue that is not an isotype or a syntype is a paratype)
-
 -   Residual syntype – used for the remaining syntypes when a lectotype has been selected from among syntypes (*Note:* in HISPID the term ‘Paralectotype’ is used for this and that is what goes into the database when ‘Residual syntype’ is selected from the pick list)
-
 -   Paraneotype – used for the remaining syntypes when a neotype has been selected from among syntypes
-
 -   Epitype – a specimen or illustration selected to serve as an interpretative type when the holotype, lectotype, or previously designated neotype, or all original material associated with a validly published name, cannot be identified for the purpose of precise application of the name of a taxon
-
 -   Authentic specimen – the original specimen of an invalid name, i.e. any specimen cited in the protologue of an invalid name
-
 -   Type – used when we know it is a type, but are uncertain of the type status.
 
 #### Type qualifier
@@ -307,7 +287,6 @@ For type specimens, this field is used to indicate that the specimen is stored u
 If the determination of a specimen is not based on examination of the actual specimen, but on a duplicate or an image, the basis of determination should be recorded here. The following values are currently in the pick list:
 
 -   Duplicate – we either have the catalogue number of the specimen at the original herbarium in MELISR, or the catalogue number is not available, but the collector, collecting number and collecting date match
-
 -   Image.
 
 If additional values need to be added to the pick list, see the Digital Collections Advisor.
@@ -317,9 +296,7 @@ If additional values need to be added to the pick list, see the Digital Collecti
 The **Extra information** field should be used to record recognised form and variant names, or any other information that tells you something about the taxon or group concept, but is not part of the taxon name. For example:
 
 -   ‘alpine form’
-
 -   ‘broad phyllode variant’
-
 -   ‘var. indet.’.
 
 Information entered in the **Extra information** field will be printed on the label directly below the taxon name. Any nomenclatural notes relating to the taxon name (e.g. ‘nom. nud’, ‘nom. inval.’) should be entered in the **Nom. note** field in the taxon name record.
@@ -333,22 +310,18 @@ If the det. slip indicates that the specimen was viewed for a flora project, sel
 **Det. notes** should be used to record additional notes that relate to the determination or the particular specimen, and not to a taxon or group concept. For example:
 
 -   ‘glabrous variant with atypically short phyllodes’
-
 -   ‘form with more or less petalous flowers’
-
 -   ‘primocane’
-
 -   ‘fruit needed for identification to species level’
-
 -   'Determination taken from NSW 574242, Australia's Virtual Herbarium, 30/10/14'.
 
 Lichen chemistry should be recorded in the **Det. notes** field if it is part of a determination. If it was provided by the collector, it should be recorded in **Collecting notes**. For example:
 
 -   ‘TLC in C: salazinic (major), consalazinic, norstictic (faint trace), protocetraric (trace) and usnic acids’
-
 -   ‘P-, K+, yellow, C-, KC-’.
 
 <div class="well">
+
 ### Taxon names – what goes where?
 
 #### Name usage
@@ -374,23 +347,18 @@ An indication of where the name comes from should be entered in the **Det. notes
 Short, informal variant or form names should be entered in the **Extra information** field. For example:
 
 -   ‘Brisbane Range variant’
-
 -   ‘Daylesford form’
-
 -   ‘sessile-head variant’.
 
 But, if the variant or form has been listed in VicFlora or APNI, it should be entered in the **Taxon** tree. For example:
 
 -   ‘*Grevillea* aff. *oxyantha* (Mt Burrowa)’
-
 -   ‘*Betula* aff. *pubescens* (Mt Macedon)’.
 
 If the variant or form information is a short description, rather than a short, informal name, it should be entered in the **Det. notes** field. For example:
 
 -   ‘variant with pubescent calyces’
-
 -   ‘variant with short, ovate-obovate leaves’
-
 -   ‘small, dark and short-headed form’.
 
 If you are unsure whether something belongs in **Extra information** or **Det. notes**, enter the information in **Det. notes**.
@@ -547,6 +515,7 @@ The Index Herbariorum codes of the herbaria (or the name of other institutions) 
 The Index Herbariorum code of the institution where the actual specimen is held, where we have received a photograph or cibachrome of the specimen from a different herbarium. For example, if we receive an image of a type specimen from CANB, but the image is of a specimen held at K, ‘CANB’ would be entered in the **Ex herbarium** field, and ‘K’ would be entered here.
 
 <div class="well">
+
 #### Databasing MEL duplicates
 
 ##### Duplicate preparations
@@ -1029,7 +998,7 @@ Information about what the specimen is growing on, if provided by the collector.
 
 <div class="well">
 
-### Habitat, Host or Substrate?
+#### Habitat, Host or Substrate?
 
 {: .table .table-condensed .table-bordered }
 
@@ -1478,29 +1447,23 @@ Where the **Protocol** is ‘GEOLocate’, ‘GeoNames’ or ‘Google Earth’,
 
 A guide to determining which datum was used is provided below.
 
-###### GPS readings
+-   **GPS readings**
+    Most GPS units are set to use the WGS84 datum by default but, if the datum has not been recorded, check with the collector if possible.
 
-> Most GPS units are set to use the WGS84 datum by default but, if the datum has not been recorded, check with the collector if possible.
+-   **Google Earth and Google Maps**
+    Google map products use the WGS84 datum.
 
-###### Google Earth and Google Maps
+-   **Australian map references**
+    Maps could be based on any datum. Newer maps will probably be based on GDA94 and older maps will be AGD66 or AGD84. Check near the title of the map for the datum and/or coordinate system used. If the coordinate system is AMG66, then the datum is AGD66. If it is a newer map the coordinate system might be MGA94, in which case it the datum is GDA94. Most of the maps in the Royal Botanic Gardens Library use AGD66.
 
-> Google map products use the WGS84 datum.
+-   **Reader’s Digest Atlas of Australia**
+    The Reader’s Digest *Atlas of Australia* (1994) is assumed to be in AGD66.
 
-###### Australian map references
+-   **Melway**
+    *Melway* directories up to edition 30 use AGD66. From edition 31 (2004) onwards, the datum is GDA94.
 
-> Maps could be based on any datum. Newer maps will probably be based on GDA94 and older maps will be AGD66 or AGD84. Check near the title of the map for the datum and/or coordinate system used. If the coordinate system is AMG66, then the datum is AGD66. If it is a newer map the coordinate system might be MGA94, in which case it the datum is GDA94. Most of the maps in the Royal Botanic Gardens Library use AGD66.
-
-###### Reader’s Digest Atlas of Australia
-
-> The Reader’s Digest *Atlas of Australia* (1994) is assumed to be in AGD66.
-
-###### Melway
-
-> *Melway* directories up to edition 30 use AGD66. From edition 31 (2004) onwards, the datum is GDA94.
-
-###### VicRoads State Directory
-
-> VicRoads used AGD66 up to edition 4. From edition 5 onwards, the datum is GDA94.
+-   **VicRoads State Directory**
+    VicRoads used AGD66 up to edition 4. From edition 5 onwards, the datum is GDA94.
 
 ##### Source
 
@@ -1624,7 +1587,7 @@ The name of the water body the collecting site is in. Use for things collected o
 
 See the **Island group, Island and Water body** usage notes below for more information.
 
-<div class="alert alert-warning">
+<div class="well">
 
 **Island group, Island and Water body**
 
@@ -2205,7 +2168,7 @@ Please always include an explanation of why the name has been assumed to be inco
 
 ![](assets/media/image129.png)
 
-</div> <-- /.well >
+</div> <!-- /.well -->
 
 ### Addresses
 
@@ -2724,7 +2687,7 @@ To import an attachment mapping file:
 
 2.  Select the table that you want to link attachments to, and the unique field value that you’ve used for the file name, in the **Choose attachment destination** window:
 
-    &lt;&lt;image&gt;&gt;
+    ![](assets/media/image344.png)
 
 3.  Click **OK**
 

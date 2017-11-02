@@ -164,7 +164,7 @@ h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
 *************************************************************/
 
 .license {
-    padding-top: 45px;
+    padding-top: 25px;
     
     & > a {
         display: block;
@@ -172,5 +172,13 @@ h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
         font-size: 12px;
         padding-top: 3px;
         padding-bottom: 3px;
+    }
+    
+    @media (min-width: $screen-sm-min) {
+        text-align: right;
+    }
+    
+    @media (min-width: $screen-md-min) {
+        padding-top: 45px;
     }
 }
