@@ -394,5 +394,3 @@ To turn **Carry forward** off:
 **Caution!**
 When carrying forward locality data from one record to another, remember that if a **Locality** record is shared between two or more records, then subsequently edited, the locality will be changed in _all_ **Collection object** records that share that locality, not just in the **Collection object** that is open when the **Locality** record is edited. You should only carry forward locality data if ALL of the details in the **Locality** form (and the associated **Locality details** and **Geocoordinate details** ) are EXACTLY the same for the different collecting events, such as is the case for multisheet collections.
 </div>
-
-[prev](specify-set-up.html)

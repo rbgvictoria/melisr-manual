@@ -99,6 +99,3 @@ To close Specify, do one of the following:
 -   Click on the **Close** symbol in the top right corner of the window
 -   Select **Exit** from the **File** menu
 -   Press **Alt+F4**.
-
-[prev](introduction.html) \| [next](using-specify.html)
-
