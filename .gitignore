@@ -1,8 +1,8 @@
 _site
 .sass-cache
 .jekyll-metadata
-/node_modules/
-/bower_components/
-/vendor/
-/nbproject/private/
-/nbproject/
+_posts/2018-04-06-welcome-to-jekyll.markdown
+bower_components/
+nbproject/
+node_modules/
+vendor/
