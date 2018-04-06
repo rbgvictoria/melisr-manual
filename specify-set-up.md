@@ -1,64 +1,101 @@
-This document is an addendum to the Memorandum of Understanding for the Australasian Virtual Herbarium (AVH). It is a separate document from the MoU, so that it can be more easily updated in order to keep up with changing requirements. This document covers the technical aspects of provision of data to AVH, such as delivery mechanism, frequency of delivery and quality and completeness of the provided data. CHAH and HISCOM understand that not all herbaria will be able to meet all requirements from the moment they sign the MoU or start providing data to AVH, but we do expect that AVH providers commit to making their best effort to meet the requirements in the near future.
+---
+title: Specify set-up
+permalink: specify-set-up
+layout: page
+---
 
-## Summary
+### Installing Specify
 
-* Data should preferably be delivered via a BioCASe provider or as Darwin Core archives
-* Data must be updated at a minimum frequency of every three months
-* Data must be re-indexed at least yearly
-* All required fields must be delivered, and herbaria should actively work towards delivering the fields listed as highly recommended.
+To install Specify:
 
+1. Navigate to the following folder: Q:\Applications\Specify
+2. Copy the Specify\_windows.exe file to your Desktop (the version will be included in the file name)
+3. Double-click the Specify\_windows.exe file
+4. Click **Run** in the **Open File – Security Warning** window:
 
-## Data standard
+![](assets/media/image2.png)
 
-The Australasian Virtual Herbarium is part of the Atlas of Living Australia (ALA) and therefore has to comply with the ALA data standard, which is Darwin Core, in order to fit within the ALA infrastructure. Darwin Core is the most widely used data standard for primary occurrence data as well as name data and is also used and supported by the Global Biodiversity Information Facility (GBIF).
+- If you receive an error message about Java, run the Java runtime environment update file in Q:\SOE, and then try installing Specify again
 
-The vehicle that is used by most Australian herbaria is ABCD, which is a form of XML. There is also a delimited text (CSV) format, Darwin Core Text, available, that can be delivered in the form of Darwin Core Archives. A Darwin Core Archive is a ZIP file containing one or more CSV files and a small XML file that sets out the relationship between the CSV files and the meaning of the columns in the CSV files. Darwin Core Archives are used to forward the aggregated AVH data to AVH. When the New Zealand herbaria join AVH, they will most likely deliver directly in Darwin Core Text. This option is also available to Australian herbaria.
+1. When prompted, click **OK** to select English as the language:
 
-## Delivery mechanism
+![image3](assets/media/image3.jpg)
 
-All current AVH providers use a BioCASe provider to provide data to AVH. The BioCASe provider gets data from a database and can turn it into various forms of XML, including ABCD, HISPID and Darwin Core. As the BioCASe provider can be queried, it is possible to harvest just the updated records, as you can just query for records that have been updated since the last harvest. In order to be harvested, the BioCASe provider requires an open HTTP port all the time and hence may not be an option for every AVH provider. Also, while installing the BioCASe software and mapping a database to ABCD in HISPID in BioCASe is easy, creating the database from which the BioCASe provider can consume data may, depending on the structure of the collections database, be very hard.
+1. Click **Next** for all options in the Specify **Installer** window to accept the default installation settings
+2. Click **Done** to close the installer.
 
-Another provider that is available is the GBIF Internet Publishing Toolkit (IPT). The IPT can dump database tables and views into a Darwin Core Archive. There is much less mapping involved in the IPT: the fields in the underlying tables or views have to be the same as those of the CSV files in the Darwin Core Archive. The IPT doesn’t allow querying, so can’t be used to deliver only updated records (unless the underlying database tables or views only contain updated records). However, as the IPT does much less work than the BioCASe provider, performance should be better and the output will be compressed (and IPT output is already much smaller than XML files produced by BioCASe providers), so the files won’t be huge. Therefore it might still be an option for infrequent delivery.
+### Opening and closing Specify
 
-HISCOM realises that, especially for smaller herbaria, neither delivery method might be feasible and we will work together with any herbarium that wants to deliver data to AVH – and can fulfill the requirements of the MoU – to get their data into AVH. Herbaria that want to join AVH should contact the HISCOM Technical Coordinator for technical advice.
+#### Logging in
 
-## Delivery frequency
+1.  Open Specify from the shortcut button or your programs list.
 
-Dynamic delivery of data via a BioCASe provider, which will be harvested weekly, is preferred. For periodical delivery, delivery frequency should be at least every three months. Herbarium data sets need to be re-indexed,&nbsp;''i.e.''&nbsp;re-delivered and re-uploaded, once a year. Re-indexing can be done via a BioCASe archive or Darwin Core Archive, depending on your delivery method.
+    If you are presented with a window asking about internet connection settings, click **Cancel**. Once you have edited your preferences (see below), you will no longer be presented with this window upon start-up.
 
-## AVH data
+    ![](assets/media/image4.jpg)
 
-'''AVH providers should only deliver data for specimens that are held at their own institutions, not records of images of specimens held elsewhere.'''
+    If you are presented with an **Updater** window, click **Cancel** to prevent Specify from updating your current installation. Updates to new versions must only be done by database administrators so we can ensure that the new version works properly with our customisation of Specify.
 
-The fields that can be delivered to AVH are listed and explained on the&nbsp;[http://hiscom.rbg.vic.gov.au/wiki/AVH_data AVH data]&nbsp;page ([http://hiscom.chah.org.au/wiki/AVH_data http://hiscom.chah.org.au/wiki/AVH_data]) on the HISCOM Wiki. There are a number of required and highly recommended fields that will be listed under the subheadings below. In order to get the most value out of AVH as both a research and curation tool it is highly recommended to deliver as many of the other fields as possible.
+    ![](assets/media/image5.png)
 
-### Fields required for every record
+    Click **Exit** when asked if you really want to exit (this will only exit you from the update installer, not from logging in to Specify):
 
-* [http://hiscom.chah.org.au/avhfields/institutionCode institutionCode]
-* [http://hiscom.chah.org.au/avhfields/institutionCode collectionCode]
-* [http://hiscom.chah.org.au/avhfields/catalogNumber catalogNumber]
-* [http://hiscom.chah.org.au/avhfields/occurrenceID occurrenceID]
-* [http://hiscom.chah.org.au/avhfields/modified modified]
+    ![](assets/media/image6.png)
 
+2.  Enter your user name and password in the login window
+3.  Click **Login**
 
+    ![](assets/media/image7.png)
 
-### Fields required for records for which they are available or relevant
+    If your login fails, click on **More information** and check that the database settings match those below.
 
-* [country](http://hiscom.chah.org.au/avhfields/country)
-* [http://hiscom.chah.org.au/avhfields/stateProvince stateProvince]
-* [http://hiscom.chah.org.au/avhfields/locality locality]
-* [http://hiscom.chah.org.au/avhfields/decimalLongitude decimalLongitude]
-* [http://hiscom.chah.org.au/avhfields/decimalLatitude decimalLatitude]
-* [http://hiscom.chah.org.au/avhfields/coordinateUncertaintyInMeters coordinateUncertaintyInMeters]
-* [http://hiscom.chah.org.au/avhfields/eventDate eventDate]
-* [http://hiscom.chah.org.au/hispid/terms/bushBlitzExpedition bushBlitzExpedition] (BushBlitz participants only)
-* [http://hiscom.chah.org.au/avhfields/identificationQualifier identificationQualifier]
-* [http://hiscom.chah.org.au/avhfields/identifiedBy identifiedBy]
-* [http://hiscom.chah.org.au/avhfields/identificationDate identificationDate]
-* [http://hiscom.chah.org.au/avhfields/typeStatus typeStatus] (including [http://rs.tdwg.org/ontology/voc/Specimen#typeForName typifiedName])
-* [http://hiscom.chah.org.au/avhfields/scientificName scientificName]
-* [http://hiscom.chah.org.au/avhfields/taxonRank taxonRank]
-* [http://hiscom.chah.org.au/avhfields/family family]
-* [http://hiscom.chah.org.au/avhfields/genus genus]
-* [http://hiscom.chah.org.au/avhfields/specificEpithet specificEpithet]
-* [http://hiscom.chah.org.au/avhfields/infraspecificEpithet infraspecificEpithet]
+    ![](assets/media/image8.jpg)
+
+##### Configuring the master key
+
+If you have just installed Specify on your computer, or if you are using Specify on a computer other than your own, you will need to enter your master key before you can log in. The master key for your username will have been e-mailed to you by the database administrator.
+
+1.  Click on the arrow next to **More Information** in the **Specify Login** window
+2.  Click on the **Configure Master Key** symbol
+3.  Enter your master key in the **Encrypted Username/Password** field
+4.  Click **Continue**
+5.  Click **Login** in the login window.
+
+![](assets/media/image9.jpeg)
+
+If you are unsure of your master key, see a database administrator.
+
+##### Choose a collection
+
+There are seven different &#39;collections&#39; within MELISR, which are used to catalogue different types of information and to manage data for curation tasks. All users have access to the main _National Herbarium of Victoria_ collection. If you have access to other collections, you will be presented with a window prompting you to choose which collection you want to use.
+
+-   **Incoming exchange** – a holding database used to manage and check data associated with incoming exchange,    prior to adding the records to the _National Herbarium of Victoria_ collection
+-   **MEL Census** – holds the data from the old MEL Census, which contains information on MEL&#39;s holdings
+-   **National Herbarium of Victoria** – the principal collection in MELISR, used to catalogue specimens from the main component of the State Botanical Collection
+-   **Non-MEL loans** – used to manage incoming loans
+-   **Photographs of specimens­** – used to catalogue photographs or cibachromes of specimens held at other herbaria
+-   **Victorian Conservation Seed Bank­­** – used to catalogue seed collections and associated seedlings from the Victorian Conservation Seed Bank
+-   **Victorian Reference Set**  – used to catalogue specimens stored in the Victorian Reference Set
+-   **deBRIs** – a temporary collection used as a holding place for collecting data associated with the backlog of exchange material from BRI, prior to adding the records to the _National Herbarium of Victoria_ collection.
+
+##### Editing preferences
+
+When you first log in to Specify on your computer, you should edit the system preferences to stop Specify checking for updates each time you open the database:
+
+1.  Click on the **Edit** file menu, then select **Preferences** :
+
+    ![](assets/media/image10.png)
+
+2.  Under the **System** options, un-tick the **Check for updates at startup** box:
+
+    ![](assets/media/image11.png)
+
+3.  Click **OK** to save the changes.
+
+#### Closing Specify
+
+To close Specify, do one of the following:
+
+-   Click on the **Close** symbol in the top right corner of the window
+-   Select **Exit** from the **File** menu
+-   Press **Alt+F4**.
