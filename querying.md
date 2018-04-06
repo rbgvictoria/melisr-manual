@@ -252,11 +252,11 @@ To build a new query:
 
     ![](assets/media/image206.jpeg)
 
-    
+
     Related tables are indicated by an arrow to the right of the table name. One dot after the arrow indicates a one-to-many relationship between the related table and the primary table; two dots indicates a many-to-one relationship between the related table and the primary table:
-    
+
     ![](assets/media/image207.jpeg)
-    
+
     (Many collection objects can be created by the one person, and one collection object can have many determinations.)
 
 2.  Double-click on the fields that you want to include in your query. The field name will appear below the table list(s) in the workspace:
@@ -301,8 +301,9 @@ To modify the query template:
 
 1.  Modify the query syntax as required.
 
+{::options parse_block_html="true" /}
 <div class="well">
-  
+
 ### Tips for querying
 
 #### Querying for major storage groups
@@ -422,11 +423,11 @@ You can view any attachments associated with the query results by clicking on th
     ![](assets/media/image230.png)
 
     Clicking on the **Information** symbol underneath the image will display a summary of the collecting information associated with the image:
-    
+
     ![](assets/media/image231.png)
-    
+
     From here you can click on ‘Show Collection Object’ to open the full record in the **Collection object** form.
-    
+
     If the attachment is a PDF, Excel or Word file, double-clicking the attachment icon will open it in the relevant program.
 
 ### Form
