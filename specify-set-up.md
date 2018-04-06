@@ -19,7 +19,7 @@ To install Specify:
 
 1. When prompted, click **OK** to select English as the language:
 
-![image3](assets/media/image3.jpg)
+![image3](assets/media/image003.jpg)
 
 1. Click **Next** for all options in the Specify **Installer** window to accept the default installation settings
 2. Click **Done** to close the installer.
