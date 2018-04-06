@@ -1,7 +1,7 @@
 ---
 title: Specify set-up
 permalink: specify-set-up
-layout: page
+layout: page_toc
 ---
 
 ### Installing Specify
