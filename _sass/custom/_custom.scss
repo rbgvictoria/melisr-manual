@@ -29,6 +29,13 @@ and open the template in the editor.
 
 /*
 ****************************************************/
+body {
+  margin-bottom: 100px;
+  @media (min-width: $screen-md-min) {
+      margin-bottom: 0;
+  }
+}
+
 footer.site-footer {
     background-color: #41463F;
     padding: 10px 0;
