@@ -8,21 +8,21 @@ layout: page_toc
 
 To install Specify:
 
-1. Navigate to Q:\Applications\Specify
-2. Copy the `Specify_<version>_windows.exe` or `Specify_<version>_windows_64.exe` – depending on your computer's configuration – file to your Desktop
-3. Double-click the Specify\_windows.exe file
-4. Click **Run** in the **Open File – Security Warning** window:
+1.  Navigate to Q:\Applications\Specify
+2.  Copy the `Specify_<version>_windows.exe` or `Specify_<version>_windows_64.exe` – depending on your computer's configuration – file to your Desktop
+3.  Double-click the Specify\_windows.exe file
+4.  Click **Run** in the **Open File – Security Warning** window:
 
-![](assets/media/image2.png)
+    ![](assets/media/image2.png)
 
-- If you receive an error message about Java, run the Java runtime environment update file in Q:\SOE, and then try installing Specify again
+    *   If you receive an error message about Java, run the Java runtime environment update file in Q:\SOE, and then try installing Specify again
 
-1. When prompted, click **OK** to select English as the language:
+5.  When prompted, click **OK** to select English as the language:
 
-![image3](assets/media/image003.jpg)
+    ![image3](assets/media/image003.jpg)
 
-1. Click **Next** for all options in the Specify **Installer** window to accept the default installation settings
-2. Click **Done** to close the installer.
+6.  Click **Next** for all options in the Specify **Installer** window to accept the default installation settings
+7.  Click **Done** to close the installer.
 
 ### Opening and closing Specify
 
