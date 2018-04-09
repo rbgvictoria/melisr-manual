@@ -8,8 +8,8 @@ layout: page_toc
 
 To install Specify:
 
-1. Navigate to the following folder: Q:\Applications\Specify
-2. Copy the Specify\_windows.exe file to your Desktop (the version will be included in the file name)
+1. Navigate to Q:\Applications\Specify
+2. Copy the `Specify_<version>_windows.exe` or `Specify_<version>_windows_64.exe` – depending on your computer's configuration – file to your Desktop
 3. Double-click the Specify\_windows.exe file
 4. Click **Run** in the **Open File – Security Warning** window:
 
