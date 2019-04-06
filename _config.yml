@@ -41,18 +41,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-#
-# http://www.aymerick.com/2014/07/22/jekyll-github-pages-bower-bootstrap.html
-#
-incude:
-  - .nojekyll
-
-exclude:
-  - "node_modules"
-  - "package.json"
-  - "bower_components"
-  - "bower.json"
-  - "Gruntfile.coffee"
-  - "Rakefile"
-  - "nbproject"

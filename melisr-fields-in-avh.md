@@ -1,7 +1,7 @@
 ---
-title: MELISR Fields in AVH
+layout: page_toc
 permalink: melisr-fields-in-avh.html
-layout: page
+title: MELISR fields in AVH
 ---
 
 ## Collection object
@@ -25,10 +25,10 @@ MELISR | AVH
 **Determiner** | dwc:identifiedBy
 **Date** | dwc:dateIdentified
 **Taxon name** | dwc:scientificName
-**Qualifier** | dwc:identificationQualifier
+**Qualifier** | dwc:identificationQualifier (DwC compliant value is stored in Text1)
 **Qualifier rank** | dwc:identificationQualifier
 **Addendum** | abcd:NameAddendum
-**Type status** | dwc:typeStatus (Dwc compliant value is stored in co.Description)
+**Type status** | dwc:typeStatus (DwC compliant value is stored in co.Description)
 **Type qualifier** | If there is a type status qualifier, type status is not delivered
 **Extra information** | dwc:identificationRemarks
 **Determination notes** | dwc:identificationRemarks
